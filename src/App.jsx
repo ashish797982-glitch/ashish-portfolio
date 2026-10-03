@@ -181,7 +181,7 @@ const credentials = [
 
 /* ---------- contact config (all optional via .env) ---------- */
 
-const CONTACT_EMAIL = (import.meta.env.VITE_CONTACT_EMAIL || "ashishpm5454@gmail.com").trim();
+const CONTACT_EMAIL = (import.meta.env.VITE_CONTACT_EMAIL || "ashishpn5454@gmail.com").trim();
 // WhatsApp needs a real phone number: country code + digits, no "+" (e.g. 919876543210).
 const WHATSAPP_NUMBER = (import.meta.env.VITE_WHATSAPP_NUMBER || "").replace(/\D/g, "");
 
